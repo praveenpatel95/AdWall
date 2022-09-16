@@ -1,0 +1,31 @@
+#footer{
+  background: #F3F4F6;
+  padding: 3rem 0 2rem;
+  position:inherit;
+  left:0;
+  bottom:0;
+  right:0;
+  .grey_title{
+    color: #6B7280;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 250%;
+    text-transform: uppercase;
+  }
+  ul{
+    a{
+      color: #111827;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    svg{
+      color: #2AA587;
+    }
+
+  }
+
+  .copyRight{
+    font-size: 12px;
+    color: #111827;
+  }
+}

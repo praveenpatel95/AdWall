@@ -1,0 +1,42 @@
+#sidebar{
+  .logo{
+    font-family: Megrim;
+    font-weight: bolder;
+    font-style: normal;
+    color: #fff;
+    font-size: 34px;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .company_box{
+    padding: 0px 10px;
+    border-radius: 8px;
+    background: rgb(255 255 255 / 4%);
+    cursor: none;
+    .MuiListItemText-secondary{
+      color: #9CA3AF;
+    }
+  }
+  .MuiListItemIcon-root{
+    color: #D1D5DB;
+    min-width: 0;
+    padding-right: 10px;
+    font-size: 14px !important;
+  }
+  .MuiListItemText-primary{
+    font-size: 14px !important;
+    color:#D1D5DB;
+  }
+  li a{
+    text-decoration: none;
+  }
+  li .active{
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    width: 100%;
+
+    .MuiListItemIcon-root, .MuiListItemText-primary{
+      color: #2AA587;
+    }
+  }
+}
